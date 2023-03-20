@@ -67,3 +67,11 @@ footer {
   padding: 1rem;
   text-align: center;
 }
+
+/* Media Queries para dispositivos móviles de pantalla larga */
+@media screen and (min-width: 480px) {
+  section {
+    margin: 1rem;
+    max-width: calc(100% - 2rem);
+  }
+}
